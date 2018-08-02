@@ -15,6 +15,7 @@ public class BlockWolfsbane extends BlockBush {
 		this.setUnlocalizedName(WVCore.MODID + ".wolfsbane");
 		this.setRegistryName("wolfsbane");
 		this.setCreativeTab(WVCore.ctab);
+		this.setStepSound(soundTypeGrass);
 	}
 	
 	@SideOnly(Side.CLIENT)
