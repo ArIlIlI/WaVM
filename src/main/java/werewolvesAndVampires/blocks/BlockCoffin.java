@@ -68,6 +68,7 @@ public class BlockCoffin extends BlockContainer {
 		setRegistryName(new ResourceLocation(WVCore.MODID, "coffin"));
 		setUnlocalizedName(WVCore.MODID + ".coffin");
 		setCreativeTab(WVCore.ctab);
+		this.setStepSound(soundTypeStone);
 	}
 
 	@Override
