@@ -15,6 +15,7 @@ public class BlockWolfsbaneCake extends BlockCake {
 		this.setUnlocalizedName(WVCore.MODID + ".wolfsbane_cake");
 		this.setRegistryName("wolfsbane_cake");
 		this.setCreativeTab(WVCore.ctab);
+		this.setStepSound(soundTypeCloth);
 	}
 	
 	@SideOnly(Side.CLIENT)
