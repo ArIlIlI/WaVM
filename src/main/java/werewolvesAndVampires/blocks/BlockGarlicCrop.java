@@ -28,6 +28,7 @@ public class BlockGarlicCrop extends BlockCrops {
 	public BlockGarlicCrop() {
 		setRegistryName(new ResourceLocation(WVCore.MODID, "garlic_crop"));
 		setUnlocalizedName(WVCore.MODID + ".garlic_crop");
+		this.setStepSound(soundTypeGrass);
 	}
 
 	public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos) {
