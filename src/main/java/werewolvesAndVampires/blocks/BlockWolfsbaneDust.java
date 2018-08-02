@@ -59,6 +59,7 @@ public class BlockWolfsbaneDust extends BaseBlock {
 
 	public BlockWolfsbaneDust() {
 		super(Material.CIRCUITS, MapColor.MAGENTA, "wolfsbane_dust");
+		this.setStepSound(soundTypeStone);
 		this.setDefaultState(this.blockState.getBaseState()
 				.withProperty(NORTH, EnumAttachPosition.NONE)
 				.withProperty(EAST, EnumAttachPosition.NONE)
